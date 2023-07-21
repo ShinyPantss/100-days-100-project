@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: black;
+  align-items: center;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+}
+.follow-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar-header-content h2 {
+  margin: 5px 0px;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+img {
+  margin: 0 10px;
+  width: 60px;
+  height: 60px;
+}
+.follow-button {
+  margin: 0 12px;
+  padding: 3px 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-color: rgb(101, 250, 101);
+  border: 0;
+}
+.follow-button:hover {
+  background-color: rgb(7, 176, 7);
+  cursor: pointer;
+}
+.follow-button p {
+  color: black;
+  font-size: 0.7rem;
+}
+.follow-button svg {
+  margin: 0 5px;
+  width: 10px;
+  height: 10px;
+}
